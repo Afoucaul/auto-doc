@@ -1,0 +1,37 @@
+\documentclass{article}
+
+\usepackage[a4paper, margin=2cm]{geometry}
+
+\begin{document}
+
+\pagenumbering{gobble}
+
+\noindent\begin{tabular}[t]{@{}l@{}}
+    Left-side header
+\end{tabular}%
+\hfill
+\begin{tabular}[t]{@{}r@{}}
+    Right-side header
+\end{tabular}
+
+\vspace{1cm}
+
+\begin{flushright}
+    Some text on the right: <RIGHT FIELD>
+\end{flushright}
+
+\vspace{1cm}
+
+\begin{flushleft}
+    Some field on the left: <LEFT FIELD 1>\\
+
+    Some other field on the left: <LEFT FIELD 2>\\
+
+    Yet another field on the left: <LEFT FIELD 3>\\
+\end{flushleft}
+
+\vspace{1cm}
+
+Body of the document
+
+\end{document}
