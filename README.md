@@ -1,9 +1,9 @@
-#Autodoc
+# Autodoc
 
 This piece of software lets you generate a `.pdf` document from a `.tex` template, by interactively filling fields defined in the template.
 
 
-##How to use it
+## How to use it
 
 Create your `.tex` template and leave tags enclosed in a pair of `<>`, such as `<FIELD1>`.
 Then, run `make`.
@@ -11,7 +11,7 @@ You will be prompted to input the textual value of each field.
 Then, a `.pdf` document will be generated from your `.text` template, each field having been replaced by the corresponding value.
 
 
-##How it works
+## How it works
 
 This piece of software relies on three files: `generate.py`, `Makefile`, and `template.tex`.
 
@@ -23,7 +23,7 @@ Then, the processed text is written to a temporary `.tex` file.
 The temporary `.tex` file is then passed to `pdflatex`, and a document named `output.pdf` is produced.
 
 
-##What it requires
+## What it requires
 
 - Python 3
     - The `babel` package
